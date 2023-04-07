@@ -54,3 +54,11 @@ void input(int jaky[], int& size) {
     }
 }
 
+void display(int jaky[], int size) {
+    cout << "sorted array :" << endl;
+    for (int i = 0; i < size; i++) {
+        cout << jaky[i] << " ";
+    }
+    cout << endl;
+}
+
