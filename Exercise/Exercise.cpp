@@ -34,4 +34,10 @@ void mergeSort(int jaky[], int low, int high) {
         return;
     }
 
- 
+    int mid = (low + high) / 2;
+
+    mergeSort(jaky, low, mid);
+    mergeSort(jaky, mid + 1, high);
+    merge(jaky, low, mid, high);
+}
+
