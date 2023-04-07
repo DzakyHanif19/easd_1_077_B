@@ -15,3 +15,8 @@ void merge(int jaky[], int low, int mid, int high) {    //arr diganti dengan nam
             b[k++] = jaky[DA++];
         }
     }
+
+    while (DA <= high) {
+        b[k++] = jaky[DA++];
+    }
+
