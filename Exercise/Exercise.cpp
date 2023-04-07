@@ -7,3 +7,11 @@ void merge(int jaky[], int low, int mid, int high) {    //arr diganti dengan nam
     int i = low, DA = mid + 1, k = low;     //Nama saya : Dzaky Hanif Annafi
     int b[MAX_SIZE];
 
+    while (i <= mid && DA <= high) {
+        if (jaky[i] <= jaky[DA]) {
+            b[k++] = jaky[i++];
+        }
+        else {
+            b[k++] = jaky[DA++];
+        }
+    }
