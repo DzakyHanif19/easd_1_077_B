@@ -48,4 +48,9 @@ void input(int jaky[], int& size) {
         cout << "Size exceeds maximum allowed value. Setting size to " << MAX_SIZE << endl;
         size = MAX_SIZE;
     }
-  
+    cout << "Enter the elements: ";
+    for (int i = 0; i < size; i++) {
+        cin >> jaky[i];
+    }
+}
+
