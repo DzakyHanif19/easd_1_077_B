@@ -30,4 +30,8 @@ void merge(int jaky[], int low, int mid, int high) {    //arr diganti dengan nam
 }
 
 void mergeSort(int jaky[], int low, int high) {
-    if (low >= high) 
+    if (low >= high) {
+        return;
+    }
+
+ 
