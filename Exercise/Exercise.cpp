@@ -62,3 +62,12 @@ void display(int jaky[], int size) {
     cout << endl;
 }
 
+int main() {
+    int jaky[MAX_SIZE],size;
+
+    input(jaky, size);
+    mergeSort(jaky, 0, size - 1);
+    display(jaky, size);
+
+    return 0;
+}
