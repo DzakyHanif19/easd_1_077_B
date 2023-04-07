@@ -44,4 +44,8 @@ void mergeSort(int jaky[], int low, int high) {
 void input(int jaky[], int& size) {
     cout << "MASUKAN JUMLAH ELEMEN (maksimum " << MAX_SIZE << "): ";
     cin >> size;
- 
+    if (size > MAX_SIZE) {
+        cout << "Size exceeds maximum allowed value. Setting size to " << MAX_SIZE << endl;
+        size = MAX_SIZE;
+    }
+  
