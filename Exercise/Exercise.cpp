@@ -28,3 +28,6 @@ void merge(int jaky[], int low, int mid, int high) {    //arr diganti dengan nam
         jaky[i] = b[i];
     }
 }
+
+void mergeSort(int jaky[], int low, int high) {
+    if (low >= high) 
