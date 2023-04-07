@@ -41,3 +41,7 @@ void mergeSort(int jaky[], int low, int high) {
     merge(jaky, low, mid, high);
 }
 
+void input(int jaky[], int& size) {
+    cout << "MASUKAN JUMLAH ELEMEN (maksimum " << MAX_SIZE << "): ";
+    cin >> size;
+ 
